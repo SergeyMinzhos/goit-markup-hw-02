@@ -88,7 +88,8 @@ a { text-decoration: none;}
 .button {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
-}
+    }
+
 .button:hover {
     background-color: #188CE8;
     color: var(--primary-white-color);
@@ -100,7 +101,6 @@ a { text-decoration: none;}
 
 .title {
     font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
@@ -111,7 +111,6 @@ a { text-decoration: none;}
 
 .text {
     font-family: Roboto;
-    font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
@@ -131,7 +130,6 @@ a { text-decoration: none;}
 
 .foto-title {
     font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -141,7 +139,6 @@ a { text-decoration: none;}
 
 .foto-discription {
     font-family: Roboto;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
@@ -155,7 +152,6 @@ a { text-decoration: none;}
 
 .logo-footer {
     font-family: Raleway;
-    font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 31px;
@@ -165,7 +161,6 @@ a { text-decoration: none;}
 
 .studio-footer {
     font-family: Raleway;
-    font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 31px;
@@ -185,7 +180,6 @@ a { text-decoration: none;}
 
 .footer-list {
     font-family: Roboto;
-    font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
@@ -195,6 +189,7 @@ a { text-decoration: none;}
 
 button:hover {
     background-color: var(--accent-color);
+    cursor: pointer;
 }
 
 .works-list-item {
