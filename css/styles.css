@@ -88,14 +88,13 @@ a { text-decoration: none;}
 .button {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
-    position: absolute;
     width: 145px;
     height: 38px;
     left: 712px;
     top: 174px;
 
-    background: #F5F4FA;
     border-radius: 4px;
+    background: #2196F3;
     }
 
 .button:hover {
